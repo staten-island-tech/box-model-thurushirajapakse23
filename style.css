@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+font-size: 62.5%;
+}
+.header{
+    position: relative; 
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(255, 204, 204);
+}
+.header-text{ 
+    position: relative;
+    height: 40rem ;
+    width: 40rem ;  
+    font-family: 'Reenie Beanie', cursive;
+    text-transform: uppercase;  
+    margin: 0 auto;
+}
+
+
+.position{
+    position: absolute;
+    top: 44%;
+    left: -59%; 
+}
+
+#text{
+    z-index: 2;
+    color: white; 
+    background-color: black;
+    width: 57rem;
+    height: 11rem;
+    font-size: 10rem;
+    letter-spacing: 4rem;
+}
+
+#texttwo{
+    z-index: 2;
+    top: 32%;
+    color: black; 
+    width: 98rem;
+    height: 13rem;
+    font-size: 5rem;
+    word-spacing: 2rem;
+}
+#friends{
+    height: 50rem;
+    width: 97rem;
+}
+
+
